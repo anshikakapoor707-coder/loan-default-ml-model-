@@ -1,0 +1,39 @@
+# Data files
+*.csv
+*.xlsx
+*.xls
+data/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+.Python
+build/
+dist/
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Model artifacts / outputs
+*.pkl
+*.joblib
+outputs/
+*.log
